@@ -1,0 +1,353 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #3d3a3a;
+    background-color: #f9f9f9;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #5c85e6;
+    padding: 10px 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 16px;
+    transition: all 0.3s;
+}
+
+.nav-links a:hover {
+    background: #bef2c4;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #c1f0c4;
+}
+
+/* Search Bar Styles */
+.search-bar input {
+    padding: 6px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.search-bar button {
+    padding: 6px 12px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #53e1c0, #bde26d);
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+    background-image: url(https://wallpaperaccess.com/full/5761551.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #f8f8f8;    
+}
+
+.hero .btn {
+    text-decoration: none;
+    color: #fff;
+    background: #e74c3c;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    transition: all 0.3s;
+}
+
+.hero .btn:hover {
+    box-shadow: 0 0 15px #fff;
+}
+
+/* Features Section */
+.features {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    flex: 1 1 calc(30% - 40px);
+    text-align: left;
+}
+
+/* Articles and Resources Page */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.resource-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.resource-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.resource-item:hover {
+    transform: scale(1.05);
+}
+
+.resource-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.resource-item h3 {
+    font-size: 20px;
+    color: #333;
+    padding: 15px 0;
+    margin: 0;
+}
+
+.resource-item p {
+    font-size: 14px;
+    color: #666;
+    padding: 0 15px 15px;
+    margin: 0;
+}
+
+.resource-item a {
+    text-decoration: none;
+    color: #e74c3c;
+}
+
+.resource-item a:hover {
+    color: #333;
+}
+
+/* Contact Page */
+.contact {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f4f4f9;
+}
+
+.contact h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+    display: block;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+form button:hover {
+    background-color: #c0392b;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .footer-links a:hover {
+    text-decoration: underline;
+}
+/* Password Tester Section */
+.password-tester {
+    padding: 20px;
+    background: #f4f4f4;
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.password-tester h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.password-tester input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#strength-message {
+    margin: 10px 0;
+    font-weight: bold;
+    color: #333;
+}
+
+#strength-bar-container {
+    width: 80%;
+    margin: 10px auto;
+    height: 10px;
+    background: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#strength-bar {
+    height: 100%;
+    width: 0;
+    background: transparent;
+    transition: width 0.3s ease-in-out;
+}
+
+/* Button Styling */
+.password-tester button {
+    background: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.password-tester button:hover {
+    box-shadow: 0 0 15px rgba(52, 152, 219, 0.8);
+}
+/* Threat Alerts Section */
+.alerts {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.alerts h1 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.threat-card {
+    background: #f4f4f4;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.threat-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.threat-card h3 {
+    color: #e74c3c;
+}
+
+.threat-card a {
+    display: inline-block;
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.threat-card a:hover {
+    text-decoration: underline;
+}
